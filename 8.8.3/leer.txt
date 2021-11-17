@@ -1,0 +1,3 @@
+url prettyTable:https://pypi.org/project/prettytable/
+
+para instalar pip install -U prettytable

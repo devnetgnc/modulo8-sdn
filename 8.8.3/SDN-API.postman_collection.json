@@ -1,0 +1,91 @@
+{
+	"variables": [],
+	"info": {
+		"name": "SDN-API",
+		"_postman_id": "196ad48f-3d24-164d-4f3f-8c815ff4168e",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "addTicket",
+			"request": {
+				"url": " http://localhost:58000/api/v1/ticket",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"username\":\"cisco\",\n\t\"password\":\"cisco123!\"\n}"
+				},
+				"description": "api sfn"
+			},
+			"response": []
+		},
+		{
+			"name": "getNetworkDevices",
+			"request": {
+				"url": " http://localhost:58000/api/v1/network-device",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-Auth-Token",
+						"value": "NC-154-55c659ade92043c3bd60-nbi",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic Og==",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"username\":\"cisco\",\n\t\"password\":\"cisco123!\"\n}"
+				},
+				"description": "api sfn"
+			},
+			"response": []
+		},
+		{
+			"name": "getHosts",
+			"request": {
+				"url": " http://localhost:58000/api/v1/host",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "X-Auth-Token",
+						"value": "NC-154-55c659ade92043c3bd60-nbi",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic Og==",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"username\":\"cisco\",\n\t\"password\":\"cisco123!\"\n}"
+				},
+				"description": "api sfn"
+			},
+			"response": []
+		}
+	]
+}
